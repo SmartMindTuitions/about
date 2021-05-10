@@ -1,0 +1,50 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+} /* Disables horizontal scrolling */
+
+body {
+    max-width: 100%; /* Disables horizontal scrolling */
+    overflow-x: hidden; /* Disables horizontal scrolling */
+	background-color: #f5e2a4;
+}
+
+header {
+	text-align: center;
+	font-size: 70px;
+	color: #804fad;
+}
+
+main {
+	position: relative; /* Positions elements in main relative to the screen */
+	left: 5%; /* Pushes main to the right by 10% of screen size */
+	padding: 2%;
+	font-size: 25px;
+	color: #7d527a;
+}
+
+footer {
+	font-size: 20px;
+	color: #7d527a;
+}
+
+a:link {
+  color: #6e6da1;
+}
+
+a:visited {
+  color: #6e6da1;
+}
+
+a:hover {
+  color: #5e5a99;
+}
+
+a:active {
+  color: hotpink;
+}
+
+.catcher {
+	font-size: 45px;
+	font-weight: bold;
+}
